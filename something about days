@@ -1,0 +1,10 @@
+#i dont fuckign remember :laugh: 
+
+days =["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
+print (days)
+
+days.append("sunday")
+print (days)
+
+days.pop(0)
+print (days)
