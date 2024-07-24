@@ -1,0 +1,5 @@
+name = input("What is your name? ")
+if name == "Jack":
+    print("Hello Jack nice to see you again")
+else:
+    print("I don't know anyone named " + name + " but its nice to meet you")
