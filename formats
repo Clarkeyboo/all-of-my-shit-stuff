@@ -1,0 +1,12 @@
+#first time playing around with formats
+
+print("hello guys")
+name = input("what is your name?")
+print("hello", name)
+wellness = input("how are you doing today")
+print("thats nice i have some questions for you")
+age = input("how old are you")
+color = input("what is your favorite color")
+animal = input("what is your favorite animal")
+print("thats cool")
+print("so {0} you are {1} years old and your favorite color is {2} and your favorite animal is a {3}".format(name, age, color, animal))
