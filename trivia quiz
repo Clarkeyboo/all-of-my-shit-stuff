@@ -1,0 +1,50 @@
+
+#first school project about a question sheet
+
+
+
+score = 0 #<---globle score
+#asking name (:
+name = input("what is your name")
+
+#hi name
+print("hello", name)
+#ask question?
+ready = input("do you wanna do a quiz" + name)
+if ready == " yes":
+  print("lets do it then")
+else:
+  print("you are gonna do it anyways")
+
+#question one
+q1 = input("what is the capital of england")
+if q1 == " london":
+  print("correct")
+  score = score +1
+else:
+  print("wrong")
+
+#question two
+q2 = input("what is the capital of france")
+if q2 == " paris":
+  print("correct")
+  score = score + 1
+else:
+  print("WRONGG!! idk how you didnt know that")
+
+# question three
+q3 = input("what is 4 x 9: ")
+if q3 =="36":
+    print("good job")
+    score = score + 1
+else:
+    print("womp womp you suck")
+
+if score == 1:
+  print ("dang {0} you got {1} out of 3".format(name, score))
+elif score == 2:
+  print ("wow {0} you got {1} out of 3 i thought you were smarter".format(name, score))
+elif score == 3:
+  print ("holy moly {0} you got {1} out of 3 you are a genius".format(name, score))
+elif score == 0:
+  print (":( {0} you got {1} out of 3 you are a failure".format(name, score))
